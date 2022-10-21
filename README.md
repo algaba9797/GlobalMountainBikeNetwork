@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Welcome
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hi, I'm Jorge ! This project was created for the task "Front end developer" of PlaySPORTS group, the main idea is to improve the mobile user experience.
 
-## Available Scripts
+Just in case my main github account is [https://github.com/algaba97](https://github.com/algaba97)
+
+
+## How to run it
 
 In the project directory, you can run:
 
+### `npm install`
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser. Please install a [CORS extension](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en) in order to avoid local problems, please use iPhone SE in Chrome
+dev tools.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Improvements
 
-### `npm test`
+When I first saw the current implementation I decided that the best approach was creating a fast prototype (under 2h) of my point of view of how would the user experience could be improved based on my VOD experience.
+In order to get this prototype fast I used CRA, also grouped all the css( App.css) and make some not very beautiful js workarounds, and I came up with 3 main improvements. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Hero
 
-### `npm run build`
+Creating a Hero (that could contain N rotating elements if properly implemented), with a simple but effective CTA, play the video, which I think is the main goal of the site.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Reduce noise
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I feel like it has too many options on the main screen:
+- Social icons could be just only places
+- Grouped search, shop and youtube just under the hero
+- The menu is not very mobile friendly, I think it could be directly placed into rails ( video rails and publications rails).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Rails
+This rail implementation is super simple and with some could look so much better for sure, but basically, the user can quickly see the different categories and videos, and he is more likely to click on one of them
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Final Result
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Result](https://i.ibb.co/4dhPyVb/Screenshot-2022-10-21-at-23-57-46.png)

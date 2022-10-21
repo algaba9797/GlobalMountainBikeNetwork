@@ -34,15 +34,18 @@
     rgba(0, 0, 0, 0) 56%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);
-  position: fixed;
+  position: absolute;
 }
 .Play {
   width: 15%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 90px;
+  position: absolute;
+  top: 90px;
+  right: 150px;
 }
 .FakeBar {
   width: 100%;
+}
+.Item{
+  width: 500px;
+  height: 200px;;
 }
